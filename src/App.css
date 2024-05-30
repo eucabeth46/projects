@@ -1,0 +1,26 @@
+.main{
+  border: 0px ;
+  text-align: center;
+  margin: 0px;
+  padding: 150px;
+  box-sizing: border-box;
+  background-color: rgb(127, 170, 235);
+  background-position: cover;
+  display: block;
+}
+
+.button{
+  color: whitesmoke;
+  background-color: grey;
+  border: 2px solid black;
+  border-radius: 6px;
+  font-size: 25;
+  padding: 10px;
+  margin: 50px;
+  width: 80px;
+  cursor: pointer;
+}
+
+.button:hover{
+  background-color: #123ac0;
+}
