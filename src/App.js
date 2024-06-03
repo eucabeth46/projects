@@ -1,10 +1,14 @@
+import LandingPage from './components/LandingPage';
 import LoginButton from './components/LoginButton';
 import Profile from './components/Profile';
 import LogoutButton from './components/LogoutButton';
 import { useAuth0 } from '@auth0/auth0-react';
 import './App.css';
 
+
 function App() {
+
+
   const { isLoading, error } = useAuth0();
   return (
     <main className='main' >
@@ -13,14 +17,13 @@ function App() {
       { !error && isLoading && <p>Loading .....</p>}
        {!error && !isLoading && (
        <>
-     <LoginButton/>
+       <LandingPage />
+        <LoginButton/>
      <Profile/>
      <LogoutButton/>
+     
        </>
        )}
-      <form>
-      
-      </form>
      
     </main>
   );

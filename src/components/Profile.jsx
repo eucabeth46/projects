@@ -1,6 +1,4 @@
 import { useAuth0 } from "@auth0/auth0-react";
-import Trial from "./Trial";
-
 
 const Profile = () => {
    const { user, isAuthenticated } = useAuth0();
@@ -13,10 +11,9 @@ const Profile = () => {
              <ul>
                 {Object.keys(user).map((objKey, i) => <li key={i}>{objKey}: {user[objKey]}</li>)}
                 </ul> 
-            </article>
+            </article>      
         )
-        
-    )
+    )  
 }
 
 export default Profile;

@@ -1,26 +1,65 @@
 .main{
-  border: 0px ;
+  border: 8px solid black;
+  border-radius: 20px;
   text-align: center;
-  margin: 0px;
-  padding: 150px;
+  margin: 10px;
+  padding-bottom: 300px;
+  padding-top: 50px;
+  padding-left: 20px;
   box-sizing: border-box;
-  background-color: rgb(127, 170, 235);
-  background-position: cover;
   display: block;
+  text-align: left;
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(45deg,#d2001a,#7462ff);
+  background-size: 100% 100%;
+  animation: color 12s ease-in-out infinite;
+}
+@keyframes color{
+  0%{
+    background-position: 0 50%;
+  }
+  50%{
+    background-position: 100% 50%;
+  } 
+   100%{
+    background-position: 0 50%;
+  }
 }
 
-.button{
+.button1{
   color: whitesmoke;
   background-color: grey;
   border: 2px solid black;
-  border-radius: 6px;
-  font-size: 25;
-  padding: 10px;
+  border-radius: 8px;
+  font-size: 200;
+  padding: 20px 30px;
+  width: 150px;
+  height: 60px;
   margin: 50px;
-  width: 80px;
   cursor: pointer;
+  font-family: sans-serif;
 }
 
-.button:hover{
+.button1:hover{
   background-color: #123ac0;
 }
+
+.button2{
+  color: whitesmoke;
+  background-color: grey;
+  border: 2px solid black;
+  border-radius: 8px;
+  font-size: 200;
+  padding: 20px 30px;
+  margin: 50px;
+  width: 150px;
+  height: 60px;
+  cursor: pointer;
+  font-family: sans-serif;
+}
+
+.button2:hover{
+  background-color: #123ac0;
+}
+
