@@ -39,10 +39,15 @@
   margin: 50px;
   cursor: pointer;
   font-family: sans-serif;
+  box-shadow: 0 0 5px cyan,
+  0 0 25px cyan;
 }
 
 .button1:hover{
-  background-color: #123ac0;
+  /* background-color: #123ac0; */
+  box-shadow: 0 0 5px cyan,
+  0 0 25px cyan,0 0 50px cyan,
+  0 0 100px cyan, 0 0 200px cyan;
 }
 
 .button2{
@@ -57,9 +62,14 @@
   height: 60px;
   cursor: pointer;
   font-family: sans-serif;
+  box-shadow: 0 0 5px cyan,
+  0 0 25px cyan;
 }
 
 .button2:hover{
-  background-color: #123ac0;
+  /* background-color: #123ac0; */
+  box-shadow: 0 0 5px cyan,
+  0 0 25px cyan,0 0 50px cyan,
+  0 0 100px cyan, 0 0 200px cyan;
 }
 
